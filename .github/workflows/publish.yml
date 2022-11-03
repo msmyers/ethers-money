@@ -20,6 +20,6 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       # - run: npm build
       # - run: npm test
-      - run: npm publish-lib-1
+      - run: npm run publish-lib-1
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
