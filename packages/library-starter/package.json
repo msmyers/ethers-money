@@ -10,9 +10,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "publish-lib": "yarn run build && yarn publish --access=public --new-version 0.0.6",
-    "publish-beta": "yarn run build && yarn publish --tag beta --access=public",
-    "publish-dryrun": "yarn run build && yarn publish --dry-run --access=public"
+    "publish-lib": "npm run build && npm publish --access=public --new-version 0.0.6",
+    "publish-beta": "npm run build && npm publish --tag beta --access=public",
+    "publish-dryrun": "npm run build && npm publish --dry-run --access=public"
   },
   "repository": {
     "type": "git",
