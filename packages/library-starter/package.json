@@ -1,0 +1,37 @@
+{
+  "name": "@madjarx/hwrld",
+  "version": "0.0.4",
+  "description": "Can log \"hello world\" and \"goodbye world\" to the console!",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "publish-lib": "yarn run build && yarn publish --access=public --new-version 0.0.4",
+    "publish-beta": "yarn run build && yarn publish --tag beta --access=public",
+    "publish-dryrun": "yarn run build && yarn publish --dry-run --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bersling/typescript-library-starter.git"
+  },
+  "keywords": [
+    "demo",
+    "typescript",
+    "library",
+    "hello world"
+  ],
+  "author": "Luka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bersling/typescript-library-starter/issues"
+  },
+  "homepage": "https://github.com/bersling/typescript-library-starter#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "typescript": "^4.2.3"
+  }
+}
