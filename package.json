@@ -6,6 +6,7 @@
     ],
     "scripts": {
         "publish-lib-1": "yarn workspace @madjarx/hwrld publish-lib",
+        "publish-lib" : "cd ./packages/library-starter && npm run build && npm publish --access=public --new-version 0.0.6",
         "test-script" : "yarn workspace @madjarx/js-test start"
     },
     "version": "0.0.3"

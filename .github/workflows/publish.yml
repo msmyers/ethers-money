@@ -20,6 +20,8 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       # - run: npm build
       # - run: npm test
-      - run: npm run publish-lib-1
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      # - run: npm run publish-lib-1
+        working-directory: ./packages/library-starter
+        - run: npm run build && npm publish --access=public --new-version 0.0.7
+          env:
+           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
