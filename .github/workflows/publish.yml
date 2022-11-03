@@ -21,7 +21,9 @@ jobs:
       # - run: npm build
       # - run: npm test
       # - run: npm run publish-lib-1
-      - run: npm run build && npm publish --access=public --new-version 0.0.7
-          env:
+      - run: |
+          npm run build
+          npm publish --access=public --new-version 0.0.7
+        env:
            NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         working-directory: ./packages/library-starter
