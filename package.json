@@ -1,0 +1,12 @@
+{
+    "private": true,
+    "name": "@madjarx/mono-repo",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "publish-lib-1": "yarn workspace @madjarx/hwrld publish-lib",
+        "test-script" : "yarn workspace @madjarx/js-test start"
+    },
+    "version": "0.0.3"
+}

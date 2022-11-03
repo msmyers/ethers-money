@@ -1,2 +1,3 @@
-import {sayHello} from 'hwrld'
+import {sayGoodbye, sayHello} from 'hwrld'
 sayHello();
+sayGoodbye();
