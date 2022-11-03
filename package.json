@@ -10,5 +10,5 @@
   "scripts": {
     "publish": "lerna publish --registry=https://npm.pkg.github.com/"
   },
-  "version": "0.0.0"
+  "version": "0.0.1"
 }
