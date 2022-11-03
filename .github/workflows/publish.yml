@@ -1,10 +1,15 @@
 
 name: Publish Package to npmjs
+
+# On push to master
 on:
   push:
-    branches: [master]
+    branches: [monorepo]
+
+# Do the job - build
 jobs:
   build:
+    name: Publish package to npmjs
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
