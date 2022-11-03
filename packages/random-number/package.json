@@ -1,0 +1,32 @@
+{
+  "name": "@madjarx/random-number",
+  "version": "0.0.0",
+  "description": "Generates a random number",
+  "keywords": [
+    "number"
+  ],
+  "author": "Madjarx <88193583+Madjarx@users.noreply.github.com>",
+  "homepage": "https://github.com/msmyers/ethers-money#readme",
+  "license": "ISC",
+  "main": "lib/random-number.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msmyers/ethers-money.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/random-number.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/msmyers/ethers-money/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

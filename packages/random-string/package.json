@@ -1,0 +1,29 @@
+{
+  "name": "@madjarx/random-string",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Madjarx <88193583+Madjarx@users.noreply.github.com>",
+  "homepage": "https://github.com/msmyers/ethers-money#readme",
+  "license": "ISC",
+  "main": "lib/random-string.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msmyers/ethers-money.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/random-string.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/msmyers/ethers-money/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

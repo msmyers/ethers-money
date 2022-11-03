@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": false,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.0.1"
+  },
+  "scripts": {
+    "publish": "lerna publish --registry=https://npm.pkg.github.com/"
+  },
+  "version": "0.0.0"
+}
