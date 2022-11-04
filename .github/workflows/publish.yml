@@ -4,7 +4,7 @@ name: Publish Package to npmjs
 # On push to master
 on:
   push:
-    branches: [development]
+    branches: [development-branch]
 
 # Do the job - build
 jobs:

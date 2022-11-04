@@ -1,6 +1,6 @@
 {
-  "name": "@madjarx/hwrld",
-  "version": "0.0.7",
+  "name": "@b-street/hwrld",
+  "version": "0.0.1",
   "description": "Can log \"hello world\" and \"goodbye world\" to the console!",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "publish-lib": "npm run build && npm publish --access=public --new-version 0.0.6",
+    "publish-lib": "npm run build && npm publish --access=public --new-version 0.0.1",
     "publish-beta": "npm run build && npm publish --tag beta --access=public",
     "publish-dryrun": "npm run build && npm publish --dry-run --access=public"
   },

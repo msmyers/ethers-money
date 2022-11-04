@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "npx ts-node somefile",
-    "linklib": "yarn run --prefix ../packages/library-starter build && yarn link ../packages/library-starter",
-    "install-beta": "yarn install @madjarx/hwrld@beta",
-    "install-lib": "yarn install @madjarx/hwrld"
+    "linklib": "npm run --prefix ../library-starter build && npm link ../library-starter",
+    "install-beta": "npm install @b-street/hwrld@beta",
+    "install-lib": "npm install @b-street/hwrld"
   },
   "author": "",
   "license": "ISC",

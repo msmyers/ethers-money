@@ -1,13 +1,11 @@
 {
     "private": true,
-    "name": "@madjarx/mono-repo",
+    "name": "@b-street/mono-repo",
     "workspaces": [
         "packages/*"
     ],
     "scripts": {
-        "publish-lib-1": "yarn workspace @madjarx/hwrld publish-lib",
-        "publish-lib" : "cd ./packages/library-starter && npm run build && npm publish --access=public --new-version 0.0.6",
-        "test-script" : "yarn workspace @madjarx/js-test start"
+        "publish-lib": "yarn workspace @madjarx/hwrld publish-lib"
     },
     "version": "0.0.3"
 }
