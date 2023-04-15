@@ -1,6 +1,6 @@
 {
   "name": "@b-street/ethers-money",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Helpers for representing Money with the Ethers library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
