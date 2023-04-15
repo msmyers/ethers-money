@@ -8,6 +8,7 @@
   "files": [
     "/dist"
   ],
+  "private": false,
   "scripts": {
     "test2": "echo \"Error: no test specified\" && exit 1",
     "test": "mocha --watch -r ts-node/register --loader=ts-node/esm tests/**",

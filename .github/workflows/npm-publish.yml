@@ -29,6 +29,8 @@ jobs:
       with:
         token: ${{ secrets.NPM_TOKEN }}
         package: './packages/ethers-money/package.json'
+        access: 'public'
+        check-versioning: 'false'
         
     # run: npm publish
     # env:
